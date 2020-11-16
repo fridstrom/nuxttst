@@ -1,5 +1,5 @@
 ---
-title: Built For SpeedX
+title: Built For SpeedXY
 subtitle: Awake is Built to Be Blazing FastX
 category:
   - About Awake
