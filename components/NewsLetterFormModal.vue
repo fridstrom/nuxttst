@@ -8,6 +8,7 @@
     <news-letter-form />
   </modal-overlay>
 </template>
+
 <script>
 import ModalOverlay from '~/components/ModalOverlay'
 import NewsLetterForm from '~/components/NewsLetterForm'
@@ -16,7 +17,7 @@ export default {
   computed: {
     title() {
       return (
-        this.$siteConfig.newsletter.heading || 'Subscribe to Our Newsletter'
+        this.$siteConfig.newsletter.heading || 'Subscribe to Our Newsletter X'
       )
     }
   }
