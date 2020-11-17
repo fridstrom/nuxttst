@@ -11,8 +11,9 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: list
-  name: category
+- name: category
+  type: tag_list
+  default: []
   label: category
 - type: text
   name: author
