@@ -22,3 +22,4 @@ fields:
   label: featureImage
 pages:
 - content/posts/built-for-speed.md
+- content/posts/testing.md
