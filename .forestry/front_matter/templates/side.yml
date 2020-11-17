@@ -1,5 +1,5 @@
 ---
-label: Side
+label: Post
 hide_body: false
 fields:
 - type: text
@@ -20,3 +20,12 @@ fields:
 - type: file
   name: featureImage
   label: featureImage
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
