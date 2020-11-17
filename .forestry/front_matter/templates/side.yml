@@ -20,3 +20,5 @@ fields:
 - type: file
   name: featureImage
   label: featureImage
+pages:
+- content/posts/built-for-speed.md
