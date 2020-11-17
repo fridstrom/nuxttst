@@ -1,0 +1,22 @@
+---
+label: Side
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: list
+  name: category
+  label: category
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: featureImage
+  label: featureImage
