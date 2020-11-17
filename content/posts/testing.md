@@ -6,10 +6,10 @@ category:
 - Hidden
 - About Awake
 author: k
-date: 2020-11-17T00:00:00+01:00
-featureImage: "/assets/uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg"
+date: 2020-11-17T00:00:00.000+01:00
+featureImage: "/uploads/markup-hero.jpg"
 
 ---
-# **testing** 
+# **testing2**
 
-brødtekst testing
+brødtekst testing2
