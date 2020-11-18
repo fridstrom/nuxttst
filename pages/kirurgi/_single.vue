@@ -12,7 +12,7 @@
       </template>
       <template v-slot:sidebar>
         <h3 class="subtitle">
-          All Categories
+          All CategoriesX
         </h3>
         <div class="panel">
           <nuxt-link
@@ -45,7 +45,7 @@ export default {
   async created() {
     let tmpCat = await this.$cms.category.getAll();
     console.log("categories",tmpCat);
-    this.allCats = tmpCat
+    this.allCats = tmpCat;
   }
 }
 </script>
