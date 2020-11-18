@@ -11,8 +11,11 @@
         <posts-grid :category="[$store.state.name]" :per-row="2" />
       </template>
       <template v-slot:sidebar>
+
+        <pre>{{ allCats }}</pre>
+        
         <h3 class="subtitle">
-          All Categories
+          All CategoriesY
         </h3>
         <div class="panel">
           <nuxt-link
@@ -43,7 +46,10 @@ export default {
     setPageData(store, { resource: 'category', slug: params.single })
   },
   async created() {
-    this.allCats = await this.$cms.category.getAll()
+
+    let tmpCat = await this.$cms.category.getAll();
+    console.log("categories",tmpCat);
+    this.allCats = tmpCat;
   }
 }
 </script>
