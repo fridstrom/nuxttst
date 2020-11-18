@@ -14,6 +14,7 @@
         <h3 class="subtitle">
           All CategoriesX
         </h3>
+        <pre>{{ allCats }}</pre>
         <div class="panel">
           <nuxt-link
             v-for="cat in allCats"
