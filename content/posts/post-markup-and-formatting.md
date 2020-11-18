@@ -2,10 +2,11 @@
 title: Post Markup And Formatting
 subtitle: All the Tags You Need to Make Clean and Expressive Posts
 category:
-  - About Awake
+- About Awake
 author: Daniel Kelly
-date: 2019-07-04T03:02:00.000Z
-featureImage: /uploads/markup-hero.jpg
+date: 2019-07-04T03:02:00.000+00:00
+featureImage: "/uploads/markup-hero.jpg"
+
 ---
 Awake uses the awesome npm package [markdown-it ](https://github.com/markdown-it/markdown-it)by [Vitaly Puzrin](https://github.com/puzrin) to provide a wealth of markup options for your posts
 
@@ -110,7 +111,7 @@ Sample text here...
 Right aligned columns
 
 | Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
+| -----: | ------------------------------------------------------------------------: |
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default.    |
 | ext    | extension to be used for dest files.                                      |
