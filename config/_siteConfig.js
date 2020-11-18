@@ -19,27 +19,22 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
+      name: 'Plastiskkirurgi',
+      link: '/kirurgi'
     },
     {
-      name: 'Contact',
-      link: '/contact'
+      name: 'Kontakt oss',
+      link: '/kontakt-oss'
     },
     {
-      name: 'Categories',
-      link: '/categories'
+      name: 'Om oss',
+      link: '/om-oss'
     },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
-    }
+    // {
+    //   name: 'Github Repo',
+    //   link: 'https://github.com/entityno/nuxttst',
+    //   target: '_blank'
+    // },
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
